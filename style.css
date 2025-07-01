@@ -1,9 +1,12 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    font-family: "Courier Prime", monospace;
     padding: 0;
     margin: 0;
 }
 
-.main{
+.main {
     height: 80vh;
     position: relative;
     background-image: url("assets/img/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg");
@@ -12,7 +15,7 @@
     background-size: max(1200px, 100vw);
 }
 
-.main .box{
+.main .box {
     height: 80vh;
     width: 100%;
     opacity: 0.49;
@@ -21,7 +24,7 @@
     background-color: black;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +33,42 @@ nav{
     justify-content: space-between;
 }
 
-nav img{
-    position: relative;
-    z-index: 1 ;
-}
-
-nav button{
+nav img {
     position: relative;
     z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+
+}
+
+.hero :first-child{
+    font-weight: 900;
+    font-size:56px ;
+    line-height: 70px;
+}
+
+.hero :nth-child(2){
+    font-weight:500 ;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 40px;
 }
